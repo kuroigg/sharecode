@@ -1,0 +1,61 @@
+/* nav{
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar{
+display: inline-block;
+} */
+ 
+*{
+  /* font-size: 62.5%;  */
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.header{
+  font-weight: 300; 
+  font-size: 3rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+.bigtext{
+  font-family: Impact;
+  font-size: 5rem;
+  font-stretch: extra-expanded;
+  margin: 3rem;
+  text-align: center;
+}
+.contentbox{
+  display:flex;
+  justify-content: center;
+  padding: 0px 3rem;
+  /* text-align: center; */
+  /* padding: 2rem; */
+}
+.title{
+  padding: 10px;
+  width: 10rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-wrap: wrap;
+  /* height: 6rem; */
+  /* width: 4rem; */
+} 
+.disc{
+  padding: 10px;
+  width: 50rem;
+  font-size: 1.125rem;
+  text-align: left;
+  /* height: 6rem; */
+} 
+
+
+@media (min-width: 600px) {
+  .container{
+    flex-direction: column;
+    /* Side-by-side layout for larger screens */
+  }
+  .disc{
+    text-align: center;
+  }
+
+}
