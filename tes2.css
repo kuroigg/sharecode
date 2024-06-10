@@ -1,13 +1,17 @@
 /* root */
 *{
   font-family: "Ubuntu Sans", Arial, Helvetica, sans-serif;
-  font: 1.15rem;
+  /* font-size: 1.15rem; */
   color: #EDE6D9;
 }
 
 /* body */
 body{
-  background-color: #342519;
+  background-color: #060A0D;
+}
+
+p{
+  font-size: 1.25rem;
 }
 
 /* nav */
@@ -37,6 +41,7 @@ a{
 a:hover, #headertext:hover{
   color: #fff9ef;
   text-shadow: 0 0 10px #ede6d99e;
+  cursor: pointer;
 }
 a:hover{
   text-decoration: underline;
@@ -46,20 +51,42 @@ a:hover{
   display: flex;
   justify-content: center;
   margin: 0 10rem;
-  padding: 0.5rem 10rem;
+  padding: 0.5rem 10rem 3rem 10rem;
 }
+/* .wrappertext{
+  padding: 0.5rem 1rem;
+} */
 .intro{
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   text-align: left;
-  padding-right: 15rem;
+  padding-right: 5rem;
+  margin-bottom: 2rem;
 }
 
 .box{
   display: flex;
   justify-content: center;
-  background-color: #684F36;
+  background-color: #cd282d;
   border-radius: 10px;
   /* width: fit-content; */
-  padding: 2rem 10rem 2rem 5rem;
+  font-size: 1.25rem;
+  padding: 2rem 5rem 2rem 3rem;
   margin: 2rem 30rem;
+  /* box-shadow: red 0 0 30px; */
+}
+
+li{
+  margin-bottom: .25rem;
+}
+
+/* main image */
+.img{
+  /* width: 20rem; */
+  height: 20rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  /* box-shadow: aliceblue 0 0 30px; */
+}
+.wrapperimage{
+  align-self: flex-end;
 }
